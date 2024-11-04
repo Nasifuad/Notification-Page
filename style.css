@@ -1,0 +1,44 @@
+/* jakarta sans */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --v-light-grayish-blue: hsl(210, 60%, 98%);
+  --light-grayish-blue-1: hsl(211, 68%, 94%);
+  --light-grayish-blue-2: hsl(205, 33%, 90%);
+  --grayish-blue: hsl(219, 14%, 63%);
+  --dark-grayish-blue: hsl(219, 12%, 42%);
+  --very-dark-blue: hsl(224, 21%, 14%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--v-light-grayish-blue);
+  height: 100vh;
+  width: 100%;
+  font-family: Jakarta Sans;
+  display: grid;
+  place-content: center;
+}
+.container {
+  background-color: var(--white);
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notification-title {
+  display: flex;
+  gap: 10px;
+}
