@@ -36,7 +36,7 @@ body {
 .notification {
   display: inline-flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
 }
 .notification-title {
   display: flex;
